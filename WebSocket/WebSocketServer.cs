@@ -5,8 +5,8 @@ using System.Net.Sockets;
 using System.Security.Cryptography;
 using System.Text;
 using System.Threading;
+using Extensions.Array;
 using WebSocket.EventArguments;
-using WebSocket.Extensions;
 
 namespace WebSocket
 {
@@ -161,7 +161,6 @@ namespace WebSocket
 
                 if (headerLength != -1)
                     PerformHandshake(output, headerLength, tcpClient);
-
                 else
                 {
                     string errorMessage;
@@ -232,7 +231,7 @@ namespace WebSocket
 
         private bool GetMessage(byte[] message, int messageLength, TcpClient tcpClient, out string reason)
         {
-            reason = "Connection clsoed";
+            reason = "Connection closed";
 
             var secondByte = message[1];
             var encoded = Convert.ToBoolean(secondByte & 128);

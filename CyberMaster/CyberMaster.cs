@@ -7,7 +7,7 @@ using SPIRITLib;
 
 namespace CyberMaster
 {
-    public sealed class CyberMaster : SPIRITLib.SpiritClass
+    public sealed class CyberMaster : SpiritClass
     {
         public CyberMaster()
         {
