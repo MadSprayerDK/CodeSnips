@@ -1,0 +1,64 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.31101.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "WebSocket", "WebSocket", "{4DE37949-1402-428B-86E8-5F86D404A54E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebSocket", "WebSocket\WebSocket.csproj", "{F6892689-B32F-4ADB-B6E7-144843151EE8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebSocket.Runner", "WebSocket.Runner\WebSocket.Runner.csproj", "{04CCD79E-6E55-4199-B503-DAAEFC9420EE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebSocket.Chat", "WebSocket.Chat\WebSocket.Chat.csproj", "{8A8FD557-369C-4D2C-899F-0DAC7CEDA8C1}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "CyberMaster", "CyberMaster", "{E2B71378-0B96-405A-8A01-0477EFBDE2D7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CyberMaster", "CyberMaster\CyberMaster.csproj", "{8F3C00F9-E6CC-4715-BB35-93F83762F840}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CyberMaster.Runner", "CyberMaster.Runner\CyberMaster.Runner.csproj", "{91F2ADD1-3BB9-499B-8A07-474D04FDFABC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CyberMaster.Forms", "CyberMaster.Forms\CyberMaster.Forms.csproj", "{9CE7062D-1E9D-4767-BC9A-BB20F10C5C0E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F6892689-B32F-4ADB-B6E7-144843151EE8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F6892689-B32F-4ADB-B6E7-144843151EE8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F6892689-B32F-4ADB-B6E7-144843151EE8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F6892689-B32F-4ADB-B6E7-144843151EE8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{04CCD79E-6E55-4199-B503-DAAEFC9420EE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{04CCD79E-6E55-4199-B503-DAAEFC9420EE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{04CCD79E-6E55-4199-B503-DAAEFC9420EE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{04CCD79E-6E55-4199-B503-DAAEFC9420EE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8A8FD557-369C-4D2C-899F-0DAC7CEDA8C1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8A8FD557-369C-4D2C-899F-0DAC7CEDA8C1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8A8FD557-369C-4D2C-899F-0DAC7CEDA8C1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8A8FD557-369C-4D2C-899F-0DAC7CEDA8C1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8F3C00F9-E6CC-4715-BB35-93F83762F840}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8F3C00F9-E6CC-4715-BB35-93F83762F840}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8F3C00F9-E6CC-4715-BB35-93F83762F840}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8F3C00F9-E6CC-4715-BB35-93F83762F840}.Release|Any CPU.Build.0 = Release|Any CPU
+		{91F2ADD1-3BB9-499B-8A07-474D04FDFABC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{91F2ADD1-3BB9-499B-8A07-474D04FDFABC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{91F2ADD1-3BB9-499B-8A07-474D04FDFABC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{91F2ADD1-3BB9-499B-8A07-474D04FDFABC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9CE7062D-1E9D-4767-BC9A-BB20F10C5C0E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9CE7062D-1E9D-4767-BC9A-BB20F10C5C0E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9CE7062D-1E9D-4767-BC9A-BB20F10C5C0E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9CE7062D-1E9D-4767-BC9A-BB20F10C5C0E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{F6892689-B32F-4ADB-B6E7-144843151EE8} = {4DE37949-1402-428B-86E8-5F86D404A54E}
+		{04CCD79E-6E55-4199-B503-DAAEFC9420EE} = {4DE37949-1402-428B-86E8-5F86D404A54E}
+		{8A8FD557-369C-4D2C-899F-0DAC7CEDA8C1} = {4DE37949-1402-428B-86E8-5F86D404A54E}
+		{8F3C00F9-E6CC-4715-BB35-93F83762F840} = {E2B71378-0B96-405A-8A01-0477EFBDE2D7}
+		{91F2ADD1-3BB9-499B-8A07-474D04FDFABC} = {E2B71378-0B96-405A-8A01-0477EFBDE2D7}
+		{9CE7062D-1E9D-4767-BC9A-BB20F10C5C0E} = {E2B71378-0B96-405A-8A01-0477EFBDE2D7}
+	EndGlobalSection
+EndGlobal
