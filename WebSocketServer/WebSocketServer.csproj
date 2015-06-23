@@ -42,10 +42,15 @@
     <Compile Include="EventArguments\ClientConnectionEventArgs.cs" />
     <Compile Include="EventArguments\ExceptionOccurredEventArgs.cs" />
     <Compile Include="EventArguments\NewMessageEventArgs.cs" />
-    <Compile Include="Extensions\ArrayExtensions.cs" />
     <Compile Include="WebSocketErrorCodes.cs" />
     <Compile Include="WebSocketServer.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Extensions\Extensions.csproj">
+      <Project>{a9424c72-5ece-454b-9867-8ebd84523e45}</Project>
+      <Name>Extensions</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
