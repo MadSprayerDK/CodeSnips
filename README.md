@@ -12,6 +12,6 @@ Simple threaded TcpServer
 Contains different utility projects
 * Extensions: Extensions for existing system classes
 
-### WebSocket / WebSocketServer
+### WebSocketServer
 Simple threaded WebSocket Server.  
 Based on the TcpServer.
