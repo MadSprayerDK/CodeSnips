@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace WebSocket.EventArguments
+namespace WebSocketServer.EventArguments
 {
     public class ExceptionOccurredEventArgs
     {

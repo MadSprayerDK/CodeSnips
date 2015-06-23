@@ -1,19 +1,17 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Linq;
 using System.Net;
 using System.Net.Sockets;
-using System.Text;
-using System.Threading.Tasks;
+using WebSocketServer.EventArguments;
 
-namespace WebSocket.Chat
+namespace WebSocketServer.Chat
 {
     class Program
     {
         private static WebSocketServer _wsServer;
         private static List<TcpClient> _clients;
 
-        static void Main(string[] args)
+        static void Main()
         {
             _clients = new List<TcpClient>();
 
@@ -27,7 +25,7 @@ namespace WebSocket.Chat
             Console.WriteLine("Awaiting connections");
         }
 
-        static void wsServer_NewMessage(object sender, EventArguments.NewMessageEventArgs args)
+        static void wsServer_NewMessage(object sender, NewMessageEventArgs args)
         {
             Console.WriteLine("New Message: " + args.Message);
 
@@ -37,18 +35,18 @@ namespace WebSocket.Chat
             }
         }
 
-        static void wsServer_ExceptionOccurred(object sender, EventArguments.ExceptionOccurredEventArgs args)
+        static void wsServer_ExceptionOccurred(object sender, ExceptionOccurredEventArgs args)
         {
             Console.WriteLine("An exception occurred: " + args.Message + "\n Exception Message: " + args.Exception.Message);
         }
 
-        static void wsServer_ClientDisconnected(object sender, EventArguments.ClientConnectionEventArgs args)
+        static void wsServer_ClientDisconnected(object sender, ClientConnectionEventArgs args)
         {
             _clients.Remove(args.Client);
             Console.WriteLine("Client Disconnected: " + ((IPEndPoint)args.Client.Client.RemoteEndPoint).Address + "\nReason: " + args.Message);
         }
 
-        static void wsServer_ClientConnected(object sender, EventArguments.ClientConnectionEventArgs args)
+        static void wsServer_ClientConnected(object sender, ClientConnectionEventArgs args)
         {
             _clients.Add(args.Client);
             Console.WriteLine("Client Connected: " + ((IPEndPoint)args.Client.Client.RemoteEndPoint).Address);

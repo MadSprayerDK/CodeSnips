@@ -8,7 +8,7 @@ namespace TcpServer.Runner
     {
         private static TcpServer _tcpServer;
 
-        static void Main(string[] args)
+        static void Main()
         {
             _tcpServer = new TcpServer(2000);
             _tcpServer.NewMessage += TcpServerNewMessage;

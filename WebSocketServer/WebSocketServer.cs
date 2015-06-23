@@ -6,9 +6,9 @@ using System.Security.Cryptography;
 using System.Text;
 using System.Threading;
 using Extensions.Array;
-using WebSocket.EventArguments;
+using WebSocketServer.EventArguments;
 
-namespace WebSocket
+namespace WebSocketServer
 {
     public class WebSocketServer
     {
