@@ -264,13 +264,13 @@ namespace WebSocketServer
             {
                 switch ((WebSocketErrorCodes)decoded[1])
                 {
-                    case WebSocketErrorCodes.CLOSE_GOING_AWAY:
+                    case WebSocketErrorCodes.CloseGoingAway:
                         reason = "Endpoint is going away";
                         break;
-                    case WebSocketErrorCodes.CLOSE_PROTOCOL_ERROR:
+                    case WebSocketErrorCodes.CloseProtocolError:
                         reason = "Protocol Error";
                         break;
-                    case WebSocketErrorCodes.CLOSE_UNSUPPORTED:
+                    case WebSocketErrorCodes.CloseUnsupported:
                         reason = "Unsupported";
                         break;
                 }

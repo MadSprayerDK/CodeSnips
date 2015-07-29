@@ -6,7 +6,7 @@ namespace CyberMaster.Runner
     {
         static void Main()
         {
-            var cyb = new CyberMaster();
+            /*var cyb = new CyberMaster();
 
             Console.ReadKey();
 
@@ -14,7 +14,7 @@ namespace CyberMaster.Runner
 
             Console.ReadKey();
 
-            cyb.Stop();
+            cyb.Stop();*/
         }
     }
 }
