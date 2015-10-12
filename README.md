@@ -6,7 +6,7 @@ Projects marked with [Nuget] is avaliable on this nuget repository: http://nuget
 Code to establish connection to a Lego CyberMaster (8482)  
 Not finished
 
-### mmOAuth [Nuget]
+### [mmOAuth](https://github.com/MadSprayerDK/CodeSnips/wiki/mmOAuth) [Nuget]
 OAuth 2.0 library for standalone applications (Eg. WPF).  
 Contains providers for different services.
 
