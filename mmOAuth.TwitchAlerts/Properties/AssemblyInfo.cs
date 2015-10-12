@@ -5,11 +5,11 @@ using System.Runtime.InteropServices;
 // General Information about an assembly is controlled through the following 
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
-[assembly: AssemblyTitle("TcpServer")]
-[assembly: AssemblyDescription("A simple TCP Server")]
+[assembly: AssemblyTitle("mmOAuth.TwitchAlerts")]
+[assembly: AssemblyDescription("OAuth 2.0 Provider for TwitchAlerts")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("Mano Software")]
-[assembly: AssemblyProduct("TcpServer")]
+[assembly: AssemblyProduct("mmOAuth.TwitchAlerts")]
 [assembly: AssemblyCopyright("Copyright © Martin Manø 2015")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
@@ -20,7 +20,7 @@ using System.Runtime.InteropServices;
 [assembly: ComVisible(false)]
 
 // The following GUID is for the ID of the typelib if this project is exposed to COM
-[assembly: Guid("c6f5706f-4e55-4b71-86c5-db9dfe62ab68")]
+[assembly: Guid("4c4308d7-2705-47cf-8491-5e9b8eb78628")]
 
 // Version information for an assembly consists of the following four values:
 //
