@@ -10,8 +10,5 @@
     <description>$description$</description>
     <copyright>Copyright 2015</copyright>
     <tags>OAuth</tags>
-    <dependencies>
-       <dependency id="mmOAuth.Core" version="1.0.0.0" />
-    </dependencies>
   </metadata>
 </package>
