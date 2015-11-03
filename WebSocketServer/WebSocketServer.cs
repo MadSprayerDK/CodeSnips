@@ -5,8 +5,8 @@ using System.Net.Sockets;
 using System.Security.Cryptography;
 using System.Text;
 using System.Threading;
-using Extensions.Array;
 using WebSocketServer.EventArguments;
+using WebSocketServer.Extensions;
 
 namespace WebSocketServer
 {
@@ -16,6 +16,7 @@ namespace WebSocketServer
         private readonly TcpListener _tcpListener;
         private readonly Thread _listenThread;
         private bool _keepAlive = true;
+        private ManualResetEvent tcpClientConnected = new ManualResetEvent(false);
 
         // Event for OnNewMessage
         public delegate void NewMessageHandler(object sender, NewMessageEventArgs args);
@@ -54,6 +55,7 @@ namespace WebSocketServer
         /// </summary>
         public void Start()
         {
+            _listenThread.IsBackground = true;
             _listenThread.Start();
         }
 
@@ -64,8 +66,6 @@ namespace WebSocketServer
         {
             // Stop TcpListener and Threads
             _keepAlive = false;
-            _tcpListener.Stop();
-            _listenThread.Abort();
         }
 
         /// <summary>
@@ -93,11 +93,21 @@ namespace WebSocketServer
             // Keep accepting new clients as long as the server is active
             while (_keepAlive)
             {
-                var client = _tcpListener.AcceptTcpClient();
-
-                var clientThread = new Thread(HandleClientCommunication);
-                clientThread.Start(client);
+                tcpClientConnected.Reset();
+                _tcpListener.BeginAcceptTcpClient(AcceptTcpClient, _tcpListener);
+                tcpClientConnected.WaitOne();
             }
+        }
+
+        private void AcceptTcpClient(IAsyncResult ar)
+        {
+            var listener = (TcpListener)ar.AsyncState;
+            var client = listener.EndAcceptTcpClient(ar);
+
+            var clientThread = new Thread(HandleClientCommunication) { IsBackground = true };
+            clientThread.Start(client);
+
+            tcpClientConnected.Set();
         }
 
         /// <summary>
