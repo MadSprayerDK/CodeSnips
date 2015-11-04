@@ -1,17 +1,17 @@
 ﻿using System;
 using System.Net;
-using WebSocketServer.EventArguments;
+using ManoSoftware.WebSocketServer.EventArguments;
 
 namespace WebSocketServer.Runner
 {
     class Program
     {
-        private static WebSocketServer _wsServer;
+        private static ManoSoftware.WebSocketServer.WebSocketServer _wsServer;
 
         static void Main()
         {
             Console.WriteLine("Starting Websocket Server");
-            _wsServer = new WebSocketServer(81);
+            _wsServer = new ManoSoftware.WebSocketServer.WebSocketServer(81);
             _wsServer.ClientConnected += wsServer_ClientConnected;
             _wsServer.ClientDisconnected += wsServer_ClientDisconnected;
             _wsServer.ExceptionOccurred += wsServer_ExceptionOccurred;

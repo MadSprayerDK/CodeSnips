@@ -1,4 +1,4 @@
-﻿namespace mmOAuth.TwitchAlerts.Model
+﻿namespace ManoSoftware.mmOAuth.TwitchAlerts.Model
 {
     internal class ErrorMessage
     {

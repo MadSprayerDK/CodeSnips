@@ -7,8 +7,8 @@
     <ProjectGuid>{327EF9CB-8EE4-4438-8B03-2C12478E403B}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>TcpServer</RootNamespace>
-    <AssemblyName>TcpServer</AssemblyName>
+    <RootNamespace>ManoSoftware.TcpServer</RootNamespace>
+    <AssemblyName>ManoSoftware.TcpServer</AssemblyName>
     <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
   </PropertyGroup>

@@ -1,4 +1,4 @@
-﻿namespace Extensions.Array
+﻿namespace ManoSoftware.Extensions.ArrayExtensions
 {
     public static class SubArrayExtension
     {

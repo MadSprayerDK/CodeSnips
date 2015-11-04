@@ -2,13 +2,13 @@
 using System.Collections.Generic;
 using System.Net;
 using System.Net.Sockets;
-using WebSocketServer.EventArguments;
+using ManoSoftware.WebSocketServer.EventArguments;
 
 namespace WebSocketServer.Chat
 {
     class Program
     {
-        private static WebSocketServer _wsServer;
+        private static ManoSoftware.WebSocketServer.WebSocketServer _wsServer;
         private static List<TcpClient> _clients;
 
         static void Main()
@@ -16,7 +16,7 @@ namespace WebSocketServer.Chat
             _clients = new List<TcpClient>();
 
             Console.WriteLine("Starting Websocket Server");
-            _wsServer = new WebSocketServer(81);
+            _wsServer = new ManoSoftware.WebSocketServer.WebSocketServer(81);
             _wsServer.ClientConnected += wsServer_ClientConnected;
             _wsServer.ClientDisconnected += wsServer_ClientDisconnected;
             _wsServer.ExceptionOccurred += wsServer_ExceptionOccurred;

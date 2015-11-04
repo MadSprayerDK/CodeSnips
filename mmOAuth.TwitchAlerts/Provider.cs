@@ -1,11 +1,11 @@
 ﻿using System.Collections.Generic;
 using System.Net.Http;
-using mmOAuth.Core;
-using mmOAuth.Core.Model;
-using mmOAuth.TwitchAlerts.Model;
+using ManoSoftware.mmOAuth.Core;
+using ManoSoftware.mmOAuth.Core.Model;
+using ManoSoftware.mmOAuth.TwitchAlerts.Model;
 using Newtonsoft.Json;
 
-namespace mmOAuth.TwitchAlerts
+namespace ManoSoftware.mmOAuth.TwitchAlerts
 {
     public class Provider : IOAuthProvider
     {

@@ -1,4 +1,4 @@
-﻿namespace WebSocketServer
+﻿namespace ManoSoftware.WebSocketServer
 {
     public enum WebSocketErrorCodes
     {

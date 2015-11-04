@@ -1,6 +1,6 @@
 ﻿using System.Net.Sockets;
 
-namespace TcpServer.EventArguments
+namespace ManoSoftware.TcpServer.EventArguments
 {
     public class ClientConnectionEventArgs
     {

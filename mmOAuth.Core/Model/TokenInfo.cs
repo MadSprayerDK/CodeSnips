@@ -1,4 +1,4 @@
-﻿namespace mmOAuth.Core.Model
+﻿namespace ManoSoftware.mmOAuth.Core.Model
 {
     public class TokenInfo
     {

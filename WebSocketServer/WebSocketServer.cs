@@ -5,10 +5,10 @@ using System.Net.Sockets;
 using System.Security.Cryptography;
 using System.Text;
 using System.Threading;
-using WebSocketServer.EventArguments;
-using WebSocketServer.Extensions;
+using ManoSoftware.WebSocketServer.EventArguments;
+using ManoSoftware.Extensions.ArrayExtensions;
 
-namespace WebSocketServer
+namespace ManoSoftware.WebSocketServer
 {
     public class WebSocketServer
     {

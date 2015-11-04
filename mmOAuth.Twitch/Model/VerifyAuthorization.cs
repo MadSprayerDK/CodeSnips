@@ -1,6 +1,6 @@
 using System;
 
-namespace mmOAuth.Twitch.Model
+namespace ManoSoftware.mmOAuth.Twitch.Model
 {
     internal class VerifyAuthorization
     {

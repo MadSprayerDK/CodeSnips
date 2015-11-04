@@ -2,7 +2,7 @@
 using System.IO;
 using System.Linq;
 
-namespace mmOAuth.Core.HttpServer
+namespace ManoSoftware.mmOAuth.Core.HttpServer
 {
     public class OAuthHttpServer : HttpServer
     {

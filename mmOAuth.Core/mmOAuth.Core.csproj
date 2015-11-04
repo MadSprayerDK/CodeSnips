@@ -7,8 +7,8 @@
     <ProjectGuid>{68837C14-128E-44B6-B137-E60B01195614}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>mmOAuth.Core</RootNamespace>
-    <AssemblyName>mmOAuth.Core</AssemblyName>
+    <RootNamespace>ManoSoftware.mmOAuth.Core</RootNamespace>
+    <AssemblyName>ManoSoftware.mmOAuth.Core</AssemblyName>
     <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
   </PropertyGroup>

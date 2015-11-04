@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace WebSocketServer.EventArguments
+namespace ManoSoftware.WebSocketServer.EventArguments
 {
     public class ExceptionOccurredEventArgs
     {

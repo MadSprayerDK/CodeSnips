@@ -3,9 +3,9 @@ using System.Net;
 using System.Net.Sockets;
 using System.Text;
 using System.Threading;
-using TcpServer.EventArguments;
+using ManoSoftware.TcpServer.EventArguments;
 
-namespace TcpServer
+namespace ManoSoftware.TcpServer
 {
     /// <summary>
     /// A threaded TcpServer.

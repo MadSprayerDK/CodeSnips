@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace TcpServer.EventArguments
+namespace ManoSoftware.TcpServer.EventArguments
 {
     public class ExceptionOccurredEventArgs
     {

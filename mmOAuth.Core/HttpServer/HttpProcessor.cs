@@ -4,12 +4,12 @@ using System.IO;
 using System.Net.Sockets;
 using System.Threading;
 
-namespace mmOAuth.Core.HttpServer
+namespace ManoSoftware.mmOAuth.Core.HttpServer
 {
     public class HttpProcessor
     {
         private readonly TcpClient _socket;
-        private readonly global::mmOAuth.Core.HttpServer.HttpServer _server;
+        private readonly HttpServer _server;
 
         private Stream _inputStream;
         public StreamWriter OutputStream;
@@ -22,7 +22,7 @@ namespace mmOAuth.Core.HttpServer
 
         private const int BufSize = 4096;
 
-        public HttpProcessor(TcpClient s, global::mmOAuth.Core.HttpServer.HttpServer server)
+        public HttpProcessor(TcpClient s, HttpServer server)
         {
             _socket = s;
             _server = server;

@@ -1,7 +1,7 @@
 ﻿using System.Net.Http;
-using mmOAuth.Core.Model;
+using ManoSoftware.mmOAuth.Core.Model;
 
-namespace mmOAuth.Core
+namespace ManoSoftware.mmOAuth.Core
 {
     public interface IOAuthProvider
     {

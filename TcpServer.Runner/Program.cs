@@ -1,16 +1,16 @@
 ﻿using System;
 using System.Net;
-using TcpServer.EventArguments;
+using ManoSoftware.TcpServer.EventArguments;
 
 namespace TcpServer.Runner
 {
     class Program
     {
-        private static TcpServer _tcpServer;
+        private static ManoSoftware.TcpServer.TcpServer _tcpServer;
 
         static void Main()
         {
-            _tcpServer = new TcpServer(2000);
+            _tcpServer = new ManoSoftware.TcpServer.TcpServer(2000);
             _tcpServer.NewMessage += TcpServerNewMessage;
             _tcpServer.ExceptionOccurred += TcpServerExceptionOccurred;
             _tcpServer.ClientConnected += TcpserverClientConnected;

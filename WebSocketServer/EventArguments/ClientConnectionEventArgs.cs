@@ -1,6 +1,6 @@
 ﻿using System.Net.Sockets;
 
-namespace WebSocketServer.EventArguments
+namespace ManoSoftware.WebSocketServer.EventArguments
 {
     public class ClientConnectionEventArgs
     {

@@ -3,7 +3,7 @@ using System.Net;
 using System.Net.Sockets;
 using System.Threading;
 
-namespace mmOAuth.Core.HttpServer
+namespace ManoSoftware.mmOAuth.Core.HttpServer
 {
     public abstract class HttpServer
     {

@@ -1,4 +1,4 @@
-﻿namespace mmOAuth.Core.HttpServer
+﻿namespace ManoSoftware.mmOAuth.Core.HttpServer
 {
     public class StringEventArg
     {

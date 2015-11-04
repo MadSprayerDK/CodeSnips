@@ -7,8 +7,8 @@
     <ProjectGuid>{4EA88751-417C-4B00-AF63-4F843E5C194D}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>mmOAuth.TwitchAlerts</RootNamespace>
-    <AssemblyName>mmOAuth.TwitchAlerts</AssemblyName>
+    <RootNamespace>ManoSoftware.mmOAuth.TwitchAlerts</RootNamespace>
+    <AssemblyName>ManoSoftware.mmOAuth.TwitchAlerts</AssemblyName>
     <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
   </PropertyGroup>

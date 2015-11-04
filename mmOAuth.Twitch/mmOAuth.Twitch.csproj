@@ -7,8 +7,8 @@
     <ProjectGuid>{0164F07C-6C2B-4F8C-A1C6-AC341EDF5B14}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>mmOAuth.Twitch</RootNamespace>
-    <AssemblyName>mmOAuth.Twitch</AssemblyName>
+    <RootNamespace>ManoSoftware.mmOAuth.Twitch</RootNamespace>
+    <AssemblyName>ManoSoftware.mmOAuth.Twitch</AssemblyName>
     <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
   </PropertyGroup>

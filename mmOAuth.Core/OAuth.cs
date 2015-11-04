@@ -5,10 +5,10 @@ using System.Net.Http;
 using System.Net.Http.Headers;
 using System.Threading;
 using System.Threading.Tasks;
-using mmOAuth.Core.HttpServer;
-using mmOAuth.Core.Model;
+using ManoSoftware.mmOAuth.Core.HttpServer;
+using ManoSoftware.mmOAuth.Core.Model;
 
-namespace mmOAuth.Core
+namespace ManoSoftware.mmOAuth.Core
 {
     public class OAuth
     {
