@@ -45,6 +45,7 @@
     <Compile Include="HttpServer\HttpServer.cs" />
     <Compile Include="HttpServer\OAuthHttpServer.cs" />
     <Compile Include="HttpServer\StringEventArg.cs" />
+    <Compile Include="IOauth.cs" />
     <Compile Include="Model\TokenInfo.cs" />
     <Compile Include="OAuth.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
