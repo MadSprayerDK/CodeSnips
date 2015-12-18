@@ -1,6 +1,4 @@
 ﻿using System;
-using System.CodeDom;
-using System.Runtime.InteropServices.WindowsRuntime;
 using SPIRITLib;
 
 namespace CyberMaster
@@ -31,10 +29,7 @@ namespace CyberMaster
             Console.WriteLine("Unlock Brick");
             UnlockPBrick();
 
-            if (!PBAliveOrNot())
-                return false;
-
-            return true;
+            return PBAliveOrNot();
         }
 
         public void MotorOn(MotorDirection direction, int motorNumber)
