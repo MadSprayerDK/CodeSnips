@@ -10,7 +10,11 @@ using ManoSoftware.mmOAuth.Core.Model;
 
 namespace ManoSoftware.mmOAuth.Core
 {
-    public class OAuth
+    /// <summary>
+    /// Main Oauth class for mmOAuth
+    /// </summary>
+    /// <seealso cref="ManoSoftware.mmOAuth.Core.IOauth" />
+    public class OAuth : IOauth
     {
         public delegate void RecievedCode(object sender, StringEventArg args);
         public event RecievedCode OAuthCodeRecived;

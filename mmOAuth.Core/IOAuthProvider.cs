@@ -3,6 +3,9 @@ using ManoSoftware.mmOAuth.Core.Model;
 
 namespace ManoSoftware.mmOAuth.Core
 {
+    /// <summary>
+    /// Interface for Providor Class
+    /// </summary>
     public interface IOAuthProvider
     {
         // Auth
